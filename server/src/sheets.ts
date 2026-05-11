@@ -1,5 +1,5 @@
 import { google } from 'googleapis'
-import type { SalesRow, TriageRow } from '../../shared/types.js'
+import type { SalesRow, TriageRow } from './shared-types.js'
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID || '143pCbA2rktBqI-t3EYUjZBiZNZv0i-WxuPobN9wKRW0'
 const SALES_SHEET_NAME = 'Sales Calls'

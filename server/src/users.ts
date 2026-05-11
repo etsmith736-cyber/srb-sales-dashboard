@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import type { DashboardUser } from '../../shared/types.js'
+import type { DashboardUser } from './shared-types.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const USERS_FILE = path.join(__dirname, '../../data/users.json')
